@@ -21,6 +21,15 @@ export default function Weather() {
           <div className="temp-desc">Light Rain</div>
         </div>
       </div>
+      <div className="row">
+        <div className="col-auto">
+          <i className="fa-solid fa-wind"></i>
+        </div>
+        <div className="col-auto">
+          <div>Wind Speed</div>
+          <div>22 km/h</div>
+        </div>
+      </div>
     </div>
   );
 }
