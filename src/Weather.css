@@ -6,3 +6,11 @@
   max-width: 600px;
   text-align: center;
 }
+
+.Weather .temp {
+  font-size: 60px;
+}
+
+.Weather .temp-desc {
+  font-size: 18px;
+}
