@@ -4,19 +4,22 @@ import "./SearchEngine.css";
 export default function SearchEngine() {
   return (
     <div className="SearchEngine">
-      <div class="input-group">
-        <div class="form-outline">
+      <form className="d-flex justify-content-center" id="search-city-form">
+        <div className="me-2">
           <input
             type="search"
-            id="form1"
-            class="form-control"
+            className="form-control"
             placeholder="Type city name"
+            autoFocus="on"
+            autoComplete="off"
           />
         </div>
-        <button type="button" class="btn btn-primary">
-          <i className="fa fa-search"></i>
-        </button>
-      </div>
+        <div>
+          <button type="submit" class="btn btn-primary">
+            <i className="fa fa-search"></i>
+          </button>
+        </div>
+      </form>
     </div>
   );
 }
